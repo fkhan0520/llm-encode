@@ -1,0 +1,13 @@
+[project]
+name = "llm-encode"
+version = "0.1.0"
+description = "A way to encode/decode messages with LLMs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=5.15.0",
+    "ipykernel>=6.29.5",
+    "torch>=2.6.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.48.3",
+]
